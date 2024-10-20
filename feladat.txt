@@ -1,0 +1,12 @@
+Készíts alkalmazást, amelyben gyümölcs termékeket lehet nyilvántartani.
+Sikeres rögzítésnél tömbben tároljuk az adatokat.
+Gyümölcs adatai:
+megnevezés (minimum 5 karakter)
+egységár (egynél nagyobb)
+mennyiségi egység ('kg', 'db')
+mennyiség (nullánál nagyobb)
+Készíts weblapot a már rögzített gyümölcsök megjelenítésére és új gyümölcs rögzítésére.
+Rögzítésnél adj visszajelzést a felhasználónak 
+
+u.i.: A HTML tesztet töröltem, mert nem megfelelően jelentek meg a választási lehetőségek, ezért erre adok frontend jegyet is a statikus HTML oldalak megjelenésére. 
+Kérlek benneteket, igényesen formázzátok majd őket!
