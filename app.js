@@ -20,12 +20,19 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/index.html');
 });
 
+app.get('/felvitel', (req, res) => {
+    res.header('Content-Type', 'text/html; charset=utf-8');
+    res.sendFile(__dirname + '/public/felvitel.html');
+    
+});
+
 app.get('/lista', (req, res) => {
     res.header('Content-Type', 'text/html; charset=utf-8');
     res.sendFile(__dirname + '/public/lista.html');
+    
 });
 
-app.post('/lista', (req, res) => {
+app.post('/felvitel', (req, res) => {
     res.header('Content-Type', 'application/json');
     let gyumolcs = req.body;
     if(gyumolcs.megnevezes.lenght < 5){
