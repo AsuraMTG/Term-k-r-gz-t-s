@@ -37,18 +37,6 @@ app.get('/lista', function(req, res) {
     var name = 'hello';
     res.render(__dirname + "/public/lista.html", {adatok:name});
   });
-
-  Error: No default engine was specified and no extension was provided.
-    at new View (C:\Users\Asura\Desktop\Termék rögzítés\node_modules\express\lib\view.js:61:11)
-    at Function.render (C:\Users\Asura\Desktop\Termék rögzítés\node_modules\express\lib\application.js:587:12)
-    at ServerResponse.render (C:\Users\Asura\Desktop\Termék rögzítés\node_modules\express\lib\response.js:1049:7)
-    at C:\Users\Asura\Desktop\Termék rögzítés\app.js:65:13
-    at Layer.handle [as handle_request] (C:\Users\Asura\Desktop\Termék rögzítés\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\Users\Asura\Desktop\Termék rögzítés\node_modules\express\lib\router\route.js:149:13)
-    at Route.dispatch (C:\Users\Asura\Desktop\Termék rögzítés\node_modules\express\lib\router\route.js:119:3)
-    at Layer.handle [as handle_request] (C:\Users\Asura\Desktop\Termék rögzítés\node_modules\express\lib\router\layer.js:95:5)
-    at C:\Users\Asura\Desktop\Termék rögzítés\node_modules\express\lib\router\index.js:284:15
-    at Function.process_params (C:\Users\Asura\Desktop\Termék rögzítés\node_modules\express\lib\router\index.js:346:12)
 */
 
 app.post('/felvitel', (req, res) => {
